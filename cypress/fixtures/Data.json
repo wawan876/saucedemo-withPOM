@@ -1,0 +1,19 @@
+[
+    {
+        "usernamevalid1"    : "standard_user",
+        "passwordvalid1"    : "secret_sauce"
+    },
+    {
+        "usernamevalid2"    : "standard_user",
+        "passwordnoregist2" : "secret_"
+    },
+    {
+        "usernameinvalid"   : "user",
+        "passwordvalid2"    :  "secret_sauce"
+    },
+    {
+        "firstname"         : "Wawan",
+        "lastname"          : "Prastyo",
+        "postalcode"        : "12345"
+    }
+]
