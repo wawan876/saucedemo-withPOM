@@ -21,9 +21,9 @@ describe('Login', () => {
 
     });
 
-    it('Username Valid & Password Not Regist', () => {
-        Login.username(Data[1].usernameinvalid);
-        Login.password(Data[1].passwordvalid2);
+    it('Username Invalid & Password Regist', () => {
+        Login.username(Data[2].usernameinvalid);
+        Login.password(Data[2].passwordvalid2);
         Login.btnLogin();
         Login.assertionloginfailed();
 
